@@ -26,8 +26,8 @@ async def upgrade(bot,update):
         Payment To Admin @Beesmileee"""
 	keybord = InlineKeyboardMarkup([[ 
         			InlineKeyboardButton("Admin",url = "https://t.me/Beesmileee")], 
-        			[InlineKeyboardButton("Amazon Pay",url = "https://telegra.ph/file/d1b491bc7f773104f110e.jpg),
-        			InlineKeyboardButton("Phone Pay QR Code",url = "https://telegra.ph/file/f0b12a4bcb9051f27f20a.jpg")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
+        			[InlineKeyboardButton("Phone Pay",url = "https://telegra.ph/file/f0b12a4bcb9051f27f20a.jpg"),
+        			InlineKeyboardButton("Amazon Pay",url = "https://telegra.ph/file/d1b491bc7f773104f110e.jpg")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
 	await update.message.edit(text = text,reply_markup = keybord)
 	
 
@@ -56,8 +56,8 @@ async def upgradecm(bot,message):
         Payment To Admin @Beesmileee"""
 	keybord = InlineKeyboardMarkup([[ 
         			InlineKeyboardButton("Admin",url = "https://t.me/Beesmileee")], 
-        			[InlineKeyboardButton("Amazon Pay",url = "https://telegra.ph/file/d1b491bc7f773104f110e.jpg),
-        			InlineKeyboardButton("Phone Pay QR Code",url = "https://telegra.ph/file/f0b12a4bcb9051f27f20a.jpg")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
+        			[InlineKeyboardButton("Phone Pay",url = "https://telegra.ph/file/f0b12a4bcb9051f27f20a.jpg"),
+        			InlineKeyboardButton("Amazon Pay",url = "https://telegra.ph/file/d1b491bc7f773104f110e.jpg")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
 	await message.reply_text(text = text,reply_markup = keybord)
 
 
