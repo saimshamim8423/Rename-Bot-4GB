@@ -22,9 +22,9 @@ BOT_PIC = os.environ.get("BOT_PIC", "https://graph.org/file/ad48ac09b1e6f30d2dae
 
 # if you need to add verify system then dm me on telegram
 # Check demo bots
-# https://t.me/FileRenameXBot
-# https://t.me/PremiumRenamerRobot
-# https://t.me/FileRenamerXRobot
+# https://t.me/FileRenameXBo
+# https://t.me/PremiumRenamerRobo
+# https://t.me/FileRenamerXRobo
 # token verification adding features is paid so if you want then dm me
 
 
