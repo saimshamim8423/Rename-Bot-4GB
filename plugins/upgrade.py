@@ -20,7 +20,7 @@ async def upgrade(bot,update):
 	Price Rs 179  ind /🌎 2.16$  per Month
 	
 	
-	Pay Using Upi I'd `madflixofficial@axl`
+	Pay Using Upi I'd `8423047960@ybl`
 	
 	After Payment Send Screenshots Of 
         Payment To Admin @Beesmileee"""
