@@ -23,11 +23,11 @@ async def upgrade(bot,update):
 	Pay Using Upi I'd `madflixofficial@axl`
 	
 	After Payment Send Screenshots Of 
-        Payment To Admin @calladminrobot"""
+        Payment To Admin @Beesmileee"""
 	keybord = InlineKeyboardMarkup([[ 
-        			InlineKeyboardButton("Admin",url = "https://t.me/calladminrobot")], 
-        			[InlineKeyboardButton("Phone Pay",url = "https://telegra.ph/file/7f959437f9375b313ed1c.jpg"),
-        			InlineKeyboardButton("Paytm Wallet/UPI",url = "https://telegra.ph/file/30b3e45a02766803883cb.jpg")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
+        			InlineKeyboardButton("Admin",url = "https://t.me/Beesmileee")], 
+        			[InlineKeyboardButton("Amazon Pay",url = "https://telegra.ph/file/d1b491bc7f773104f110e.jpg),
+        			InlineKeyboardButton("Phone Pay QR Code",url = "https://telegra.ph/file/f0b12a4bcb9051f27f20a.jpg")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
 	await update.message.edit(text = text,reply_markup = keybord)
 	
 
@@ -50,14 +50,14 @@ async def upgradecm(bot,message):
 	Price Rs 179  ind /🌎 2.16$  per Month
 	
 	
-	Pay Using Upi I'd `madflixofficial@axl`
+	Pay Using Upi I'd `843047960-32@ybl`
 	
 	After Payment Send Screenshots Of 
-        Payment To Admin @calladminrobot"""
+        Payment To Admin @Beesmileee"""
 	keybord = InlineKeyboardMarkup([[ 
-        			InlineKeyboardButton("Admin",url = "https://t.me/calladminrobot")], 
-        			[InlineKeyboardButton("Phone Pay",url = "https://telegra.ph/file/7f959437f9375b313ed1c.jpg"),
-        			InlineKeyboardButton("Paytm Wallet/UPI",url = "https://telegra.ph/file/30b3e45a02766803883cb.jpg")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
+        			InlineKeyboardButton("Admin",url = "https://t.me/Beesmileee")], 
+        			[InlineKeyboardButton("Amazon Pay",url = "https://telegra.ph/file/d1b491bc7f773104f110e.jpg),
+        			InlineKeyboardButton("Phone Pay QR Code",url = "https://telegra.ph/file/f0b12a4bcb9051f27f20a.jpg")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
 	await message.reply_text(text = text,reply_markup = keybord)
 
 
