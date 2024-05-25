@@ -39,11 +39,11 @@ async def start(client, message):
     await message.reply_photo(photo=BOT_PIC,
                                 caption=txt,
                                 reply_markup=InlineKeyboardMarkup(
-                                        [[InlineKeyboardButton("📢 Updates", url="https://t.me/Anity_managementbits"),
+                                        [[InlineKeyboardButton("📱 Updates", url="https://t.me/Anity_managementbots"),
                                         InlineKeyboardButton("💬 Support", url="https://t.me/Anity_botsupport")],
                                         [InlineKeyboardButton("🛠️ Help", callback_data='help'),
-				                        InlineKeyboardButton("❤️‍🩹 About", callback_data='about')],
-                                        [InlineKeyboardButton("🧑‍💻 Developer 🧑‍💻", url="https://t.me/Beesmileee")]
+				                        InlineKeyboardButton("🤍 About", callback_data='about')],
+                                        [InlineKeyboardButton("💻 Developer", url="https://t.me/Beesmileee")]
                                         ]))
     return
 
