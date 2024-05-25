@@ -23,7 +23,7 @@ class script(object):
 <b>📢 Channel :</b> <a href='https://t.me/Anity_managementbots'>AnitySmile Botz</a>
 <b>🧑‍💻 Developer :</b> <a href='https://t.me/Beesmileee'>Smile Developer</a>
 
-<b>♻️ Bot Made By :</b> @Madflix_Bots"""
+<b>♻️ Bot Made By :</b> @Anity_managementbots"""
 
     DONATE_TXT = """
 <b>🥲 Thanks For Showing Interest In Donation! ❤️</b>
