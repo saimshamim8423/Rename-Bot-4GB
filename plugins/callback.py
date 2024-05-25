@@ -70,11 +70,11 @@ async def donate(bot,update):
 async def home_callback_handler(bot, query):
     text = f"""Hello {query.from_user.mention} \n\n➻ This Is An Advanced And Yet Powerful Rename Bot.\n\n➻ Using This Bot You Can Rename And Change Thumbnail Of Your Files.\n\n➻ You Can Also Convert Video To File Aɴᴅ File To Video.\n\n➻ This Bot Also Supports Custom Thumbnail And Custom Caption.\n\n<b>Bot Is Made By @Madflix_Bots</b>"""
     keybord = InlineKeyboardMarkup([  
-                    [InlineKeyboardButton("📢 Updates", url="https://t.me/Anity_managementbots"),
+                    [InlineKeyboardButton("📱 Updates", url="https://t.me/Anity_managementbots"),
                     InlineKeyboardButton("💬 Support", url="https://t.me/Anity_botsupport")],
                     [InlineKeyboardButton("🛠️ Help", callback_data='help'),
-		            InlineKeyboardButton("❤️‍🩹 About", callback_data='about')],
-                    [InlineKeyboardButton("🧑‍💻 Developer 🧑‍💻", url="https://t.me/Beesmileee")]
+		            InlineKeyboardButton("🤍 About", callback_data='about')],
+                    [InlineKeyboardButton("💻 Developer", url="https://t.me/Beesmileee")]
 		  ])
     await query.message.edit_text(text=text, reply_markup=keybord)
 
