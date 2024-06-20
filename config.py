@@ -12,7 +12,7 @@ LOG_CHANNEL = inos.environ.get("LOG_CHANNEL", "-1002239343917"))
 DB_URL = os.environ.get("DB_URL", "")
 DB_NAME = os.environ.get("DB_NAME", "madflixbotz")
 
-STRING = os.environ.get("STRING", "AQFCPbcApC3Gc6p605h59zcaFshopY4fv9UP6m6261ASD6Gb8XWLPg83gS0ATdzd19Qql0HNf908Z6PjPLUftEcwDGAzEtz23NeSlXjr6TD5gT5xGJkljQDUcIAwAgx0fzLiQDTvCcjWIQle0XkLwqKznzkPZN4-w8R6P9y9B3tekFhHtd6glBZdsWbMCey9ktXeSLutmV1kvl13I_UySdve27vwhGE3BqNLH6phZMS_iVKzBKE3jdT8qYay3u4EJ71bI-P-BVFEuk8KaPRzMFMNLlwoKTzqGjlrgbRycia4A-b1aoQ_sy4d0Y1zM55FZzaiiJSmUSGIruSP4Lz9-kRZHnVQ6gAAAAFXWOSNAA")
+STRING = os.environ.get("STRING", "BQFCPbcAmOrlu6evMUo1OnH8LGya2LYim9nbmvgsCiumxSLEb8IPpntxdxdcJMPV69M_fdexcvHCW-GJbeHSWZdCG0NltWAg2mgBhI913453qzZUlQTBumgw3pyWkgrUVE5odf31ZhKZC3MsI3uqKhKeKZ78hnLwBPFxSVI9fdhjgvpVxsgjvqkM3EaBKu9jIjDWgkPD0MzJLeo4BH0hxB9h-huHYBKoJTC3_rhexRwuq-9m3ZudPaVxhBmn4KHH86K01PPVjQrX3Ga1CGHkVHccqF_pqXHdarC-j_d7On3LOxSdkaAG7r8eHuSfyFrrxz_2j1rHN2On58jfSN1Lk3XmtcbGawAAAAGJgMuXAQ")
 BOT_PIC = os.environ.get("BOT_PIC", "https://graph.org/file/ad48ac09b1e6f30d2dae4.jpg")
 
 
