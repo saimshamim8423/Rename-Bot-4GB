@@ -7,7 +7,7 @@ API_HASH = os.environ.get("API_HASH", "")
 OWNER = int(os.environ.get("OWNER", ""))
 BOT_USERNAME = os.environ.get('BOT_USERNAME', "")
 FORCE_SUBS = os.environ.get("FORCE_SUBS", "")
-LOG_CHANNEL = inos.environ.get("LOG_CHANNEL", "-1002239343917"))
+LOG_CHANNEL = inos.environ.get("LOG_CHANNEL", ""))
 
 DB_URL = os.environ.get("DB_URL", "")
 DB_NAME = os.environ.get("DB_NAME", "madflixbotz")
