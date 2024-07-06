@@ -1,7 +1,7 @@
 import os
 
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "6636029469:AAFPSod7xidP2lnI4juZsrl0O7W1OjfgU7o")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
 API_ID = int(os.environ.get("API_ID", "21118391"))
 API_HASH = os.environ.get("API_HASH", "43b91164d7825dc577c2baa7c6cdcee6")
 OWNER = int(os.environ.get("OWNER", "1977715968"))
